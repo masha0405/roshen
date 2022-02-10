@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'minionpro bold';
+    src: url(./Minion\ Pro\ Bold.otf);
+}
+@font-face {
+    font-family: 'minionpro regular';
+    src: url(./MinionPro-Regular.otf);
+}
+@font-face {
+    font-family: 'opensans';
+    src: url(./OpenSans-Regular.ttf);
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: rgba(140, 10, 13, 1);
+    height: 70px;
+}
+.logo {
+    margin-top: 15px;
+    margin-left: 67px;
+    position: absolute;
+    z-index: 2;
+    filter: brightness(1.4);
+    filter: contrast(2.9);
+}
+.navigation {
+    font-size: 14px;
+    font-family: 'minionpro bold';
+    color: #F8BD6F;
+    position: absolute;
+    z-index: 3;
+    top: 38px;
+    left: 368px;    
+}
+a {
+    color: #F8BD6F;
+    text-decoration-line: none;
+    margin-left: 30px;
+}
+select {
+    font-size: 18px;
+    color: #F5B765;
+    font-family: 'minionpro bold';
+    position: absolute;
+    z-index: 4;
+    top: 34px;
+    right: 67px;
+    background-color: inherit;
+    border: none;
+    appearance: none;
+    text-align: center;
+}
+.img_lang {
+    width: 26px;
+    height: 18px;
+    background-image: url(./0927a4acc6e7d33933b632e4d1b24c80.jpg);
+    position: absolute;
+    z-index: 4;
+    top: 34px;
+    right: 115px;
+    background-position: 681px 1122px;
+    border-radius: 50%;
+
+}
+.content {
+    min-height: 689px;
+    background: url(../dz4/Слой\ 15.png), rgba(245, 232, 198, 0.8);
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.img_building {
+    height: 335px;
+    width: 1166px;
+    margin-top: 26px;
+    margin-left: 67px;
+    position: absolute;
+    z-index: 2;
+    background: url(../dz4/Слой\ 5.png), rgba(174, 174, 174, 1);
+    background-blend-mode: darken;
+}
+#img {
+    border-bottom: 4px solid rgb(46, 14, 14);
+    border-right: 4px solid rgb(46, 14, 14);
+}
+#in_the_world {
+    font-size: 60px;
+    margin-left: 15px;
+    color:#35040C;
+    font-family: 'opensans';
+    line-height: 47px;
+}
+#roshen {
+    font-size: 60px;
+    margin-left: 358px;    
+    color:#35040C;
+    font-family: 'minionpro regular';
+    line-height: 54px;
+}
+.ritw {
+    float: left;
+    margin-top: 30px;
+    height: 54px;
+}
+.button_more {
+    font-family: 'minionpro bold';
+    font-size: 24px;
+    color: #030303;
+    border-radius: 10px;
+    background-color: rgba(246, 204, 121, 1);
+    margin-left: 410px;
+    margin-top: 24px;
+    height: 42px;
+    width: 189px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: rgba(191, 103, 13, 1) 5px solid;
+}
+.buttonmarg {
+    height: 55px;
+    width: 55px;
+    border-color: black;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    background: none;
+    margin-top: 71px;
+}
+#butl {
+    float: left;
+    margin-left: 26px;
+}
+#butr {
+    float: right;
+    margin-right: 28px;
+}
+.butsmall {
+    margin-top: 156px;
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    margin-left: 9px;
+}
+#butsmall1 {
+    margin-left: 472px;
+}
+#butsmall2 {
+    background-color: rgba(191, 103, 13, 1);
+}
+.boldtext {
+    float: left;
+    height: 89px;
+    font-size: 18px;
+    font-family: 'minionpro bold';
+    margin-top: 391px;
+    color: #060606;
+}
+#bt1 {
+    width: 269px;
+    margin-left: 65px;
+}
+#bt2 {
+    width: 276px;
+    margin-left: 29px;
+}
+#bt3 {
+    width: 233px;
+    margin-left: 23px;
+}
+#bt4 {
+    width: 249px;
+    margin-left: 62px;
+}
+.slimtext {
+    font-size: 16px;
+    font-family: 'minionpro regular';
+    color: #050505;
+    float: left;
+    margin-top: 48px;
+}
+#st1 {
+    width: 259px;
+    margin-left: 65px;
+}
+#st2 {
+    width: 254px;
+    margin-left: 38px;
+   
+}
+#st3 {
+    width: 252px;
+    margin-left: 44px;
+}
+#st4 {
+    width: 276px;
+    margin-left: 45px;
+}
+footer {
+    height: 70px;
+    background-color: rgba(140, 10, 13, 1);
+    font-size: 14px;
+    color: #F8B168;
+    font-family: 'minionpro bold';
+}
+.foot {
+    display: block;
+    float: left;
+}
+#web {
+    margin-top: 36px;
+    margin-left: 67px;
+    float: left;
+    height: 14px;
+    width: 192px;
+}
+address {
+    font-style: normal;
+    height: 38px;
+    width: 148px;
+    margin-top: 12px;
+    margin-left: 102px;
+}
+#tel {
+    height: 37px;
+    width: 144px;
+    margin-top: 12px;
+    margin-left: 149px;
+}
+#mail {
+    height: 36px;
+    width: 138px;
+    margin-top: 12px;
+    margin-left: 155px;
+}
+#vk {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(../dz4/иконки\ соцсети.png);
+    margin-top: 21px;
+    margin-left: 69px;
+    background-position: 21.5% 3%;
+}
+#fb {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(../dz4/иконки\ соцсети.png);
+    margin-top: 21px;
+    margin-left: 13px;
+    background-position: 40.6% 3%;
+}
